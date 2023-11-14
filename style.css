@@ -1,0 +1,92 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    /* height: 110vh; */
+    margin: auto;
+    padding-top: 7%;
+    background-image: url('https://i.pinimg.com/564x/9e/af/95/9eaf95fdecd4b91e5dfe452848792693.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+#quiz-container {
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+
+.btn-container {
+    display: block;
+    flex-direction: column;
+    gap: 5px;
+    color: black;
+    margin: auto;
+}
+
+.btn {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.mybtn{
+    background-color: #363062;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: solid 1px #363062;
+}
+
+.mybtn2 {
+    background-color: #BE3144;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: #BE3144 solid 1px;
+}
+
+.choose{
+    margin: auto;
+}
+
+.choose ul {
+    display: block;
+}
+.choose ul li{
+    padding: 30px;
+    display: block;
+}
+.choose ul li a {
+    text-decoration: none;
+    padding: 10px;
+    border: solid #363062 2px;
+    margin: 20px;
+    text-align: center;
+    color: #363062;
+    border-radius: 10px;
+    font-size: 22px;
+    width: 300px;
+}
+
+.choose ul li a:hover{
+    background-color: #363062;
+    color: white;
+    border: solid #363062 2px;
+    transition: 0.7s ease;
+   
+}
+
+@media screen and (max-width: 850px) {
+    .choose ul li a{
+        font-size: 18px;
+    }
+}
